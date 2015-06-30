@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>JS Worship</title>
+    <link rel="stylesheet" href="05-js-worship.css"/>
+    <script>
+        function draw() {
+            //Get the context:
+            var secondCanvas = document.getElementById("second");
+            var secondContext = secondCanvas.getContext("2d");
+
+            //Draw the dashed border:
+            secondContext.strokeStyle = "red";
+            secondContext.setLineDash([3]);
+            secondContext.strokeRect(3, 3, 244, 264);
+
+            //Draw the title text:
+            secondContext.fillStyle = "black";
+            secondContext.font = "27px Verdana";
+            secondContext.fillText("I love JavaScript", 16, 55);
+
+            //Draw the yellow rectangle:
+            secondContext.fillStyle = "rgb(240,217,90)";
+            secondContext.fillRect(54, 85, 134, 134);
+
+            //Draw the JS text:
+            secondContext.fillStyle = "black";
+            secondContext.font = " bold 85px Arial";
+            secondContext.fillText("JS", 75, 208);
+        }
+
+
+
+    </script>
+</head>
+<body>
+    <h2 onclick="draw()">Click me to draw!</h2>
+    <canvas id="second" width="250" height="270">Your browser does not support canvas.</canvas>
+</body>
+</html>

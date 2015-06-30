@@ -1,0 +1,72 @@
+body {
+    background-color: lightgrey;
+    font-family: Verdana, sans-serif;
+    color: black;
+    font-size: 14px;
+}
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+figure {
+    margin: 0;
+}
+figcaption {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+.container {
+    width: 1091px;
+    height: 405px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: white;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.inner-pink-container
+{
+    width: 96%;
+    height: 96%;
+    background-color: pink;
+    border-radius: 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 15px;
+}
+article {
+    /*border: 1px solid red;*/
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+meter {
+    width: 200px;
+    height: 25px;
+}
+audio {
+    display: block;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+}
+embed {
+    background-color: black;
+    box-sizing: border-box;
+}
+.video-container {
+    width: 440px;
+    height: 265px;
+    background-image: url(resources/ken-barbi.jpg);
+}
